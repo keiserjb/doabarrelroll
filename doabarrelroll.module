@@ -1,0 +1,7 @@
+<?php
+
+function doabarrelroll_form_alter(&$form, &$form_state, $form_id) {
+  if (in_array($form_id, array('search_form', 'search_block_form'))) {
+    $form['#attached']['js'][] = drupal_get_path('module', 'doabarrelroll') . '/doabarrelroll.js';
+  }
+}
