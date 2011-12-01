@@ -11,6 +11,10 @@
 function doabarrelroll_form_alter(&$form, &$form_state, $form_id) {
   if (in_array($form_id, array('search_form', 'search_block_form'))) {
     $form['#attached']['js'][] = drupal_get_path('module', 'doabarrelroll') . '/doabarrelroll.js';
+    $form['#attached']['js'][] = array(
+      'data' => array('doabarrelroll' => variable_get('doabarrelroll_style', 0)),
+      'type' => 'setting',
+    );
   }
 }
 
