@@ -8,7 +8,11 @@ The CSS comes from [an article from Metal Toad](http://www.metaltoad.com/blog/ho
 
 - Install this module using the official [Backdrop CMS instructions](https://backdropcms.org/user-guide/modules).
 
-## Current Maintainers 
+## Issues
+
+Bugs and feature requests should be reported in the [Issue Queue](https://github.com/backdrop-contrib/doabarrelroll/issues).
+
+## Current Maintainer 
 
 [Justin Keiser](https://github.com/keiserjb)
 
