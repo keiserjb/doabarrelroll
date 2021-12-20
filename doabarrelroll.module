@@ -17,7 +17,7 @@ function doabarrelroll_config_info() {
 }
 
 /**
- * Implements hook_form_alter().().
+ * Implements hook_form_alter().
  */
 function doabarrelroll_form_alter(&$form, &$form_state, $form_id) {
   if (in_array($form_id, array('search_form', 'search_block_form'))) {
@@ -30,7 +30,8 @@ function doabarrelroll_form_alter(&$form, &$form_state, $form_id) {
 }
 
 /**
- * Implements hook_menu().().
+ * Implements hook_menu().
+().
  */
 function doabarrelroll_menu() {
   $items = array();
@@ -45,7 +46,8 @@ function doabarrelroll_menu() {
 }
 
 /**
- * Implements hook_permission().().
+ * Implements hook_permission().
+().
  */
 function doabarrelroll_permission() {
   return array(
