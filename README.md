@@ -1,4 +1,4 @@
-# DO A BARREL ROLL
+# Do a Barrel Roll!
 
 Have you ever wondered how Google does a barrel roll when you type in &#39;do a barrel roll&#39; in the search bar? Have you ever wanted to have the same functionality in your web site? Look no further: this module will give all the barrel roll awesomeness you ever wanted.
 
