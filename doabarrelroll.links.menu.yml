@@ -1,0 +1,6 @@
+doabarrelroll.settings:
+  title: 'Do a Barrel Roll!'
+  route_name: doabarrelroll.settings
+  description: 'Configure the settings for Do a Barrel Roll.'
+  parent: system.admin_config_ui
+  weight: 99

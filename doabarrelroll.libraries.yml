@@ -1,0 +1,11 @@
+doabarrelroll:
+  version: 1.x
+  header: true
+  css:
+    theme:
+      css/doabarrelroll.css: {}
+  js:
+    js/doabarrelroll.js: {}
+  dependencies:
+    - core/jquery
+    - core/drupal

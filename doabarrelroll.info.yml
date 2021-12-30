@@ -2,6 +2,7 @@ name: Do a Barrel Roll
 type: module
 description: Makes your website do a barrel roll
 package: Easter Egg
-core: 8.x
+core_version_requirement: ^8.8 || ^9
 dependencies:
-  - search
+  - drupal:search
+

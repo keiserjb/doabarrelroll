@@ -1,0 +1,5 @@
+# Permissions for the doabarrelroll module
+'administer doabarrelroll':
+  title: 'Administer Do a Barrel Roll!'
+  description: 'Perform administration tasks for the Do a Barrel Roll! module.'
+  restrict access: TRUE
